@@ -1,0 +1,13 @@
+{
+    "name": "PropertyMaster.Editor",
+    "references": [
+        "PropertyMaster",
+        "Unity.RenderPipelines.Core.Runtime"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

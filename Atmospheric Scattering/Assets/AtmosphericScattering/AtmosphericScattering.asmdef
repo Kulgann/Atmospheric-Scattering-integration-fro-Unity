@@ -1,0 +1,13 @@
+{
+    "name": "AtmosphericScattering",
+    "references": [
+        "Unity.RenderPipelines.HighDefinition.Runtime",
+        "Unity.Postprocessing.Runtime",
+        "Unity.RenderPipelines.Core.Runtime",
+        "PropertyMaster"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

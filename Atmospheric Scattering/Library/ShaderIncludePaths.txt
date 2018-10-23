@@ -1,0 +1,4 @@
+C:\Users\C0006-Admin\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.15-preview
+C:\Users\C0006-Admin\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.render-pipelines.core@3.0.0-preview
+C:\Users\C0006-Admin\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.render-pipelines.high-definition@3.0.0-preview
+C:\Users\C0006-Admin\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.shadergraph@3.0.0-preview
