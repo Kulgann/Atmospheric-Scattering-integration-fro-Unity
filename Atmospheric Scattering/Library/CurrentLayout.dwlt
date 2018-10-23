@@ -108,7 +108,7 @@ MonoBehaviour:
   m_MinSize: {x: 583, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 1
-  controlID: 9
+  controlID: 96
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -132,7 +132,7 @@ MonoBehaviour:
   m_MinSize: {x: 583, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 10
+  controlID: 97
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 11
+  controlID: 98
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 12
+  controlID: 99
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -626,20 +626,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Packages/com.unity.render-pipelines.high-definition
+    - Packages/com.unity.render-pipelines.high-definition/Documentation
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Packages/com.unity.render-pipelines.high-definition
+  - Packages/com.unity.render-pipelines.high-definition/Documentation
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: F:\Atmospheric Scattering
+  m_LastProjectPath: F:\Atmospheric Scatter project\Atmospheric Scattering
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 98130000
-    m_LastClickedID: 5016
-    m_ExpandedIDs: 0000000002100000ac110000b011000082120000a61200002c13000098130000101500004e160000e616000000ca9a3bffffff7f
+    m_SelectedIDs: b0100000
+    m_LastClickedID: 4272
+    m_ExpandedIDs: 0000000000100000aa110000ae11000080120000a41200002a130000961300000e1500004c160000e416000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -667,7 +667,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000002100000ac110000b011000082120000a61200002c13000098130000101500004e160000e6160000
+    m_ExpandedIDs: 0000000000100000aa110000ae11000080120000a41200002a130000961300000e1500004c160000e4160000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

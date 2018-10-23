@@ -62,9 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\PropertyMaster\Editor\PropertyInspectorEditor.cs" />
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>F:/Atmospheric Scattering/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>
@@ -309,7 +306,7 @@
       <HintPath>C:/Users/C0006-Admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
-      <HintPath>C:/Users/C0006-Admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.render-pipelines.core@3.0.0-preview/CoreRP/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+      <HintPath>F:/Atmospheric Scatter project/com.unity.render-pipelines.core@3.0.0-preview/CoreRP/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/C0006-Admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
@@ -349,6 +346,10 @@
     <ProjectReference Include="PropertyMaster.csproj">
       <Project>{4B45939B-6931-0201-0970-E508639C4A8D}</Project>
       <Name>PropertyMaster</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
+      <Project>{8D43CED7-2C52-4212-01E3-FD1F97DE3A63}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
