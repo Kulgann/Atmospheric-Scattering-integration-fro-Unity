@@ -1,0 +1,18 @@
+{
+    "dependencies": {
+        "com.unity.postprocessing": "2.0.9-preview", 
+        "com.unity.render-pipelines.core": "3.0.0-preview", 
+        "com.unity.shadergraph": "3.0.0-preview"
+    }, 
+    "description": "HD Render Pipeline for Unity.", 
+    "displayName": "HD Render Pipeline", 
+    "gitHead": "eff0eb92ffbc5afe521ec0f53b0cff8da83bcd95", 
+    "name": "com.unity.render-pipelines.high-definition", 
+    "repoPackagePath": "com.unity.render-pipelines.high-definition", 
+    "repository": {
+        "type": "git", 
+        "url": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git"
+    }, 
+    "unity": "2018.2", 
+    "version": "3.0.0-preview"
+}
