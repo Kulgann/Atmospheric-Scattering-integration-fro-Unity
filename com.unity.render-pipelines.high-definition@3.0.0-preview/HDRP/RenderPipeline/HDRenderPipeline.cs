@@ -284,6 +284,10 @@ namespace UnityEngine.Experimental.Rendering.HDPipeline
             MousePositionDebug.instance.Build();
 
             InitializeRenderStateBlocks();
+
+            //Custom Atmospheric 
+            HDRPCallbackAttribute.ConfigureAllLoadedCallbacks();
+            //end custom
         }
 
         void InitializeRenderTextures()
@@ -870,13 +874,16 @@ namespace UnityEngine.Experimental.Rendering.HDPipeline
                     ApplyDebugDisplaySettings(hdCamera, cmd);
                     UpdateShadowSettings(hdCamera);
                     m_SkyManager.UpdateCurrentSkySettings(hdCamera);
-
+                    if (OnBeforeCameraCull != null)
+                        OnBeforeCameraCull(renderContext, hdCamera, hdCamera.frameSettings, cmd);
                     ScriptableCullingParameters cullingParams;
                     if (!CullResults.GetCullingParameters(camera, hdCamera.frameSettings.enableStereo, out cullingParams))
                     {
                         renderContext.Submit();
                         continue;
                     }
+
+                  
 
                     m_LightLoop.UpdateCullingParameters(ref cullingParams);
                     hdCamera.UpdateStereoDependentState(ref cullingParams);
@@ -921,6 +928,10 @@ namespace UnityEngine.Experimental.Rendering.HDPipeline
 
                     PushGlobalParams(hdCamera, cmd, diffusionProfileSettings);
 
+                    //Custom AtmosphericScatter
+                    if (OnPrepareCamera != null)
+                        OnPrepareCamera(renderContext, hdCamera, cmd);
+                    //EndCustom
                     // TODO: Find a correct place to bind these material textures
                     // We have to bind the material specific global parameters in this mode
                     m_MaterialList.ForEach(material => material.Bind());
@@ -1082,6 +1093,11 @@ namespace UnityEngine.Experimental.Rendering.HDPipeline
 
                         RenderSky(hdCamera, cmd);
 
+
+                        //Custom AtmosphericScattering
+                        if (OnBeforeForwardOpaque != null)
+                            OnBeforeForwardOpaque(renderContext, hdCamera, postProcessLayer, GetDepthTexture(), m_CameraColorBuffer, cmd);
+                        //end custom
                         // Render pre refraction objects
                         RenderForward(m_CullResults, hdCamera, renderContext, cmd, ForwardPass.PreRefraction);
 

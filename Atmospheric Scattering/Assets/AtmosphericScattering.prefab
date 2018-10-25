@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1398881589074264}
+  m_IsPrefabAsset: 1
+--- !u!1 &1398881589074264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4992197899828720}
+  - component: {fileID: 114455898062286910}
+  m_Layer: 0
+  m_Name: AtmosphericScattering
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4992197899828720
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1398881589074264}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -66.3, y: 4.234993, z: 157.12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114455898062286910
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1398881589074264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5e5809d1a094f4dadcea7dac27bd7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worldRayleighColorRamp:
+    serializedVersion: 2
+    key0: {r: 0.5801521, g: 0.8179696, b: 1, a: 1}
+    key1: {r: 0.5707199, g: 0.8207084, b: 0.9999975, a: 1}
+    key2: {r: 0.56128776, g: 0.8234474, b: 0.999995, a: 1}
+    key3: {r: 0.55185556, g: 0.8261863, b: 0.9999926, a: 1}
+    key4: {r: 0.54242337, g: 0.82892513, b: 0.9999901, a: 1}
+    key5: {r: 0.53298885, g: 0.83166474, b: 0.9999876, a: 1}
+    key6: {r: 0.52355665, g: 0.8344035, b: 0.9999851, a: 1}
+    key7: {r: 0.51412475, g: 0.8371424, b: 0.9999826, a: 1}
+    ctime0: 0
+    ctime1: 8192
+    ctime2: 16384
+    ctime3: 24576
+    ctime4: 32768
+    ctime5: 40959
+    ctime6: 49151
+    ctime7: 57343
+    atime0: 0
+    atime1: 8192
+    atime2: 16384
+    atime3: 24576
+    atime4: 32768
+    atime5: 40959
+    atime6: 49151
+    atime7: 57343
+    m_Mode: 0
+    m_NumColorKeys: 8
+    m_NumAlphaKeys: 8
+  worldRayleighColorIntensity: 0.500015
+  worldRayleighDensity: 29.99921
+  worldRayleighExtinctionFactor: 1.4
+  worldRayleighIndirectScatter: 0.4
+  worldMieColorRamp:
+    serializedVersion: 2
+    key0: {r: 1, g: 0.8701826, b: 0.7058823, a: 1}
+    key1: {r: 1, g: 0.8641483, b: 0.7058823, a: 1}
+    key2: {r: 1, g: 0.858114, b: 0.7058823, a: 1}
+    key3: {r: 1, g: 0.85207975, b: 0.7058823, a: 1}
+    key4: {r: 1, g: 0.8460454, b: 0.7058823, a: 1}
+    key5: {r: 1, g: 0.84000957, b: 0.7058824, a: 1}
+    key6: {r: 1, g: 0.8339753, b: 0.7058824, a: 1}
+    key7: {r: 1, g: 0.82794124, b: 0.7058824, a: 1}
+    ctime0: 0
+    ctime1: 8192
+    ctime2: 16384
+    ctime3: 24576
+    ctime4: 32768
+    ctime5: 40959
+    ctime6: 49151
+    ctime7: 57343
+    atime0: 0
+    atime1: 8192
+    atime2: 16384
+    atime3: 24576
+    atime4: 32768
+    atime5: 40959
+    atime6: 49151
+    atime7: 57343
+    m_Mode: 0
+    m_NumColorKeys: 8
+    m_NumAlphaKeys: 8
+  worldMieColorIntensity: 1
+  worldMieDensity: 149.9913
+  worldMieExtinctionFactor: 1
+  worldMiePhaseAnisotropy: 0.8499882
+  worldNearScatterPush: 4.999605
+  worldNormalDistance: 999.9447
+  heightRayleighColor: {r: 0.49805802, g: 0.49805605, b: 0.49804842, a: 1}
+  heightRayleighIntensity: 1
+  heightRayleighDensity: 20
+  heightMieDensity: 100
+  heightExtinctionFactor: 1.1
+  heightSeaLevel: 100.51115
+  heightDistance: 5.16
+  heightPlaneShift: {x: 0, y: 0, z: 0}
+  heightNearScatterPush: 4.999605
+  heightNormalDistance: 100
+  skyDomeScale: {x: 1, y: 0.01, z: 1}
+  skyDomeRotation: {x: 0, y: -158.38748, z: 0}
+  skyDomeTrackedYawRotation: {fileID: 0}
+  skyDomeVerticalFlip: 0
+  skyDomeCube: {fileID: 8900000, guid: c5a0d28022113d745999812b612315d8, type: 3}
+  skyDomeExposure: 1.4999604
+  skyDomeTint: {r: 0.49803922, g: 0.49803922, b: 0.49803922, a: 1}
+  skyDomeOffset: {x: 0, y: 0, z: 0}
+  useOcclusion: 1
+  occlusionJitter: 1
+  occlusionJitterALU: 0
+  occlusionUpsample: 1
+  occlusionUpsampleRadius: 1.5
+  occlusionUpsampleNoiseL: 0
+  occlusionResolve: 1
+  occlusionResolveFactor: 0.95
+  occlusionResolveCheap: 0
+  occlusionNoiseTex: {fileID: 2800000, guid: a8f8af5a113189a439dd37ceee3f82cf, type: 3}
+  occlusionBias: 0
+  occlusionBiasIndirect: 0.1
+  occlusionBiasClouds: 0.1
+  occlusionDownscale: 2
+  occlusionSamples: 0
+  occlusionDepthFixup: 0
+  occlusionDepthThreshold: 25
+  occlusionFullSky: 0
+  occlusionBiasSkyRayleigh: 0.2
+  occlusionBiasSkyMie: 0.4
+  worldScaleExponent: 1
+  forcePerPixel: 1
+  forcePostEffect: 0
+  depthTexture: 0
+  debugMode: 0
+  occlusionShader: {fileID: 4800000, guid: 0997715dbbf3a1e41b8df8c3d734e682, type: 3}

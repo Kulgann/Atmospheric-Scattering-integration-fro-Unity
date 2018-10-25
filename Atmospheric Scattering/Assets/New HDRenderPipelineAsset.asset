@@ -57,7 +57,7 @@ MonoBehaviour:
     supportOnlyForward: 0
     increaseSssSampleCount: 0
     supportVolumetrics: 1
-    increaseResolutionOfVolumetrics: 0
+    increaseResolutionOfVolumetrics: 1
     supportRuntimeDebugDisplay: 1
     supportDitheringCrossFade: 1
     supportDBuffer: 0
@@ -81,8 +81,8 @@ MonoBehaviour:
         serializedVersion: 2
         m_Bits: 0
     shadowInitParams:
-      shadowAtlasWidth: 4096
-      shadowAtlasHeight: 4096
+      shadowAtlasWidth: 8192
+      shadowAtlasHeight: 8192
       maxPointLightShadows: 6
       maxSpotLightShadows: 12
       maxDirectionalLightShadows: 1
